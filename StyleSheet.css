@@ -1,0 +1,214 @@
+/* Backgrounds */
+
+
+body{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+
+p{
+    background-color: rgba(195,45,45,.20);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: 'Cantarell', sans-serif;
+
+}
+
+.bg-ac {
+
+    background-color: #138086; 
+}
+
+/* Utils */
+
+.inner-wrapper {
+
+    padding: 0;
+}
+
+.full-width {
+
+    width: 100%;
+}
+
+.sharp-edge {
+
+    border-radius: 2px;
+}
+
+.util-link {
+
+    width: 100%;
+    display: inherit;
+    font-size: 0.9em;
+}
+
+.shadow {
+
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),  100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.soft-border {
+
+    border-radius: 15px; 
+}
+
+.c-white {
+
+    color: #fff;
+}
+
+.bolder {
+
+    font-weight: bolder;
+}
+
+.outlined {
+
+    border: 1px solid #ccc;
+}
+
+.divide-col {
+
+    width: 100% !important;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 0;
+}
+
+.icon {
+
+    font-size: 1.4em;
+    color: #127897;
+}
+
+.flex-parent {
+
+    display: block;
+    padding: 10px 0;
+}
+
+.flex-small {
+
+    flex: 1;
+}
+
+.flex-large {
+
+    flex: 1;
+}
+
+
+.btn {
+    padding: 6px 20px; /* Adjust padding to make the buttons more compact */
+    font-size: 1em; /* Adjust font size for better readability */
+    display: inline-block; /* Ensure buttons stay inline */
+    text-align: center; /* Center the text in the button */
+    max-width: 200px; /* Limit the button width */
+    width: auto; /* Allow button to resize naturally */
+}
+
+/* Paddings */
+
+.pad-10 {
+
+    padding: 10px;
+}
+
+.pad-1pc {
+
+    padding: 1%;
+}
+
+.pad-2pc {
+
+    padding: 2%;
+}
+
+.mt-20 {
+
+    margin-top: 20px;
+}
+
+/* Fonts */
+
+.standard-pad {
+
+    padding: 30px;
+}
+
+.p-phone {
+
+  padding: 15px 0 !important;
+}
+
+.p-font {
+
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.p-space {
+
+    padding: 5px 0;
+    margin: 0;
+}
+
+.phone-table {
+
+    font-size: 1em;
+    width: revert;
+}
+
+.pt-0 {
+
+    padding-top: 0 !important;
+}
+
+.pb-0 {
+
+    padding-bottom: 0 !important;
+}
+
+.no-border {
+
+    border: 0 !important;
+}
+
+.personal-info-btn {
+
+    width: 100%;
+    padding: 15px;
+}
+
+.half-width {
+
+  width: 100%;
+}
+
+.p-10 {
+
+  padding: 10px;
+}
+
+.short-button {
+
+  width: 100%;
+  margin: 15px 0;
+}
+
+.extra-width {
+
+    width: 105%
+}
+
+/* Add border and change color for the button */
+.btn-info {
+    border: 2px solid #010f18;  /* Blue border */
+    background-color: #2980b9;   /* Darker blue background */
+    color: white;                /* Text color */
+}
