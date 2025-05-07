@@ -1,214 +1,108 @@
-/* Backgrounds */
-
-
-body{
-    width: 500px;
-    margin: 0 auto;
-}
-
-
-
-p{
-    background-color: rgba(195,45,45,.20);
-    color: #fff;
-    font-size: 1em;
-    font-weight: 700;
-    font-family: 'Cantarell', sans-serif;
-
-}
-
-.bg-ac {
-
-    background-color: #138086; 
-}
-
-/* Utils */
-
-.inner-wrapper {
-
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
     padding: 0;
+    background-color: #fff8f0;
+    color: #333;
 }
 
-.full-width {
-
-    width: 100%;
-}
-
-.sharp-edge {
-
-    border-radius: 2px;
-}
-
-.util-link {
-
-    width: 100%;
-    display: inherit;
-    font-size: 0.9em;
-}
-
-.shadow {
-
-    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),  100px 100px 80px rgba(0, 0, 0, 0.07);
-}
-
-.soft-border {
-
-    border-radius: 15px; 
-}
-
-.c-white {
-
-    color: #fff;
-}
-
-.bolder {
-
-    font-weight: bolder;
-}
-
-.outlined {
-
-    border: 1px solid #ccc;
-}
-
-.divide-col {
-
-    width: 100% !important;
-    display: inline-block;
-    margin: 1% 1%;
-    padding: 0;
-}
-
-.icon {
-
-    font-size: 1.4em;
-    color: #127897;
-}
-
-.flex-parent {
-
-    display: block;
-    padding: 10px 0;
-}
-
-.flex-small {
-
-    flex: 1;
-}
-
-.flex-large {
-
-    flex: 1;
-}
-
-
-.btn {
-    padding: 6px 20px; /* Adjust padding to make the buttons more compact */
-    font-size: 1em; /* Adjust font size for better readability */
-    display: inline-block; /* Ensure buttons stay inline */
-    text-align: center; /* Center the text in the button */
-    max-width: 200px; /* Limit the button width */
-    width: auto; /* Allow button to resize naturally */
-}
-
-/* Paddings */
-
-.pad-10 {
-
-    padding: 10px;
-}
-
-.pad-1pc {
-
-    padding: 1%;
-}
-
-.pad-2pc {
-
-    padding: 2%;
-}
-
-.mt-20 {
-
-    margin-top: 20px;
-}
-
-/* Fonts */
-
-.standard-pad {
-
-    padding: 30px;
-}
-
-.p-phone {
-
-  padding: 15px 0 !important;
-}
-
-.p-font {
-
-    font-size: 1em;
-    font-weight: 400;
-    font-family: 'Cantarell', sans-serif;
-}
-
-.p-space {
-
-    padding: 5px 0;
+h1 {
+    text-align: center;
+    background-color: #e63946;
+    color: white;
+    padding: 1rem;
     margin: 0;
 }
 
-.phone-table {
-
-    font-size: 1em;
-    width: revert;
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
-.pt-0 {
-
-    padding-top: 0 !important;
+/* Ingredients Section */
+div:nth-of-type(1) {
+    background-color: #f1faee;
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #1d3557;
+    border-radius: 10px;
 }
 
-.pb-0 {
-
-    padding-bottom: 0 !important;
+div:nth-of-type(1) h3 {
+    color: #1d3557;
 }
 
-.no-border {
-
-    border: 0 !important;
+div:nth-of-type(1) ul {
+    list-style: square inside;
 }
 
-.personal-info-btn {
-
-    width: 100%;
-    padding: 15px;
+/* Assembly Section */
+div:nth-of-type(2) {
+    background-color: #a8dadc;
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #457b9d;
+    border-radius: 10px;
 }
 
-.half-width {
-
-  width: 100%;
+div:nth-of-type(2) p {
+    font-weight: bold;
+    color: #1d3557;
 }
 
-.p-10 {
-
-  padding: 10px;
+div:nth-of-type(2) ul {
+    list-style-type: circle;
 }
 
-.short-button {
-
-  width: 100%;
-  margin: 15px 0;
+/* Method Section */
+div:nth-of-type(3) {
+    background-color: #fcd5ce;
+    padding: 20px;
+    margin: 20px;
+    border-left: 5px solid #d62828;
+    border-radius: 10px;
 }
 
-.extra-width {
-
-    width: 105%
+div:nth-of-type(3) p {
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
-/* Add border and change color for the button */
-.btn-info {
-    border: 2px solid #010f18;  /* Blue border */
-    background-color: #2980b9;   /* Darker blue background */
-    color: white;                /* Text color */
+div:nth-of-type(3) ol {
+    counter-reset: step-counter;
+}
+
+div:nth-of-type(3) ol > li {
+    font-weight: bold;
+    margin-top: 1em;
+    color: #6a040f;
+}
+
+div:nth-of-type(3) ol > p {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+/* Link Style */
+a {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #457b9d;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    background-color: #1d3557;
 }
